@@ -168,10 +168,6 @@ See `requirements.txt` for full list. Key dependencies:
 - `beautifulsoup4` — HTML parsing
 - `requests` — HTTP requests
 
-## License
-
-MIT License — See [LICENSE](LICENSE) for details.
-
 ---
 
 **⚠️ Disclaimer:** Use responsibly. Comply with Twitter's Terms of Service. Only repost content you have permission to use.
@@ -288,9 +284,5 @@ We welcome contributions to this project! To contribute, follow these steps:
 - Create a new branch for your feature or bug fix.
 - Commit your changes and push them to your fork.
 - Open a pull request to the main repository with a detailed explanation of your changes.
-
-## License and Legal Use  
-This project is licensed under the MIT License. However, please ensure your use of this bot complies with Twitter's Developer Agreement and Policy, and respect any intellectual property rights of the media you download and re-post. Always ensure you have permission to use any content you download before sharing it.
-
 
 </center>
