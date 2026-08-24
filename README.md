@@ -3,7 +3,7 @@
 An automated Twitter bot that scrapes tweets from a target user, downloads media, rephrases content using **Ollama + Llama 3.2 (offline)**, and reposts to your authenticated account.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4367e6b1-36a0-499d-9bf8-3790435f2512" alt="rephraseX Bot" height=200px width=480px>
+  <img src="https://github.com/user-attachments/assets/4367e6b1-36a0-499d-9bf8-3790435f2512" alt="rephraseX Bot" height=250px width=480px>
 </p>
 
 ## Features
