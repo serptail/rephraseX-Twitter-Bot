@@ -83,6 +83,23 @@ python -m scraper --cookies-from-browser firefox -u target_username -t 10
 
 **Supported browsers:** `chrome`, `vivaldi`, `edge`, `brave`, `opera`, `opera_gx`, `firefox`, `safari`
 
+### 🍪 Alternative: Use a cookies.txt File (Netscape Format)
+
+Export cookies from your browser using extensions like **"Get cookies.txt LOCALLY"** (Chrome/Edge/Vivaldi/Brave/Opera) or **"cookies.txt"** (Firefox), then use the file directly:
+
+```bash
+# Use a manually exported cookies.txt file
+python -m scraper --cookies-file ./cookies.txt -u target_username -t 10
+```
+
+This is the **most reliable method** — works with any browser, no browser detection needed, and avoids all anti-bot detection since you're using real session cookies.
+
+**How to export cookies.txt:**
+1. Install "Get cookies.txt LOCALLY" extension (Chrome/Edge/Vivaldi/Brave/Opera) or "cookies.txt" (Firefox)
+2. Go to x.com (or twitter.com) and ensure you're logged in
+3. Click the extension → "Export" → save as `cookies.txt`
+4. Place it in the project folder and use `--cookies-file ./cookies.txt`
+
 ### 🔄 Alternative: Persistent Browser Profile
 
 Create a dedicated browser profile for the bot:
@@ -117,6 +134,7 @@ python -m scraper --help
 | `--profile-dir` | Persistent profile directory |
 | `--cookies-from-browser` | Extract cookies from browser |
 | `--cookie-profile` | Browser profile name (e.g., Default, Profile 1) |
+| `--cookies-file` | Path to Netscape-format cookies.txt file |
 
 ## How It Works
 
