@@ -292,18 +292,5 @@ We welcome contributions to this project! To contribute, follow these steps:
 ## License and Legal Use  
 This project is licensed under the MIT License. However, please ensure your use of this bot complies with Twitter's Developer Agreement and Policy, and respect any intellectual property rights of the media you download and re-post. Always ensure you have permission to use any content you download before sharing it.
 
-## Support Me  
-If you find RepoUp useful, consider supporting me by:
-
-- Starring the repository on GitHub  
-- Sharing the tool with others  
-- Providing feedback and suggestions  
-- Follow me for more :)
-
-
-<center>
-    
----
-For any issues or feature requests, please open an issue on GitHub. Happy coding!
 
 </center>
