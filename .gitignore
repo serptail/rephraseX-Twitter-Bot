@@ -1,0 +1,7 @@
+
+**/__pycache__/
+twitter_profile/
+tweets/
+.env
+images/
+debug_screenshots/
